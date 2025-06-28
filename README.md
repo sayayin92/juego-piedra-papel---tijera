@@ -83,4 +83,4 @@ Empates: 0
 # ✨ Autor
 
 Desarrollado por YUSI ARISTEGA PEÑAFIEL
-FECHA: 28 DE JUNIO DEL 2025
+#FECHA: 28 DE JUNIO DEL 2025
