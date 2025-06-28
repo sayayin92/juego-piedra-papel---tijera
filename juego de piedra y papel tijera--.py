@@ -52,7 +52,7 @@ def jugar_piedra_papel_tijera(nombre):
                 print("⚠️ OPCIÓN INVÁLIDA. Elige 1, 2 o 3.")
         except ValueError:
             print("⚠️ ERROR: Debes ingresar un número válido.")
-
+            return
     # Mostrar resultados finales
     print(f"\n--- RESULTADOS FINALES para {nombre} ---")
     print(f"Ganadas: {contador_ganancia}")
@@ -64,7 +64,7 @@ while True:
     jugar_piedra_papel_tijera(nombre_usuario)
 
     otra = input("¿Quieres jugar otra vez? (s/n): ").upper()
-    if otra == "N":
+    if otra != "S":
         print("👋 ¡Gracias por jugar!")
         break
 
